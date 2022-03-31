@@ -20,3 +20,72 @@ body {
     margin: 0;
     font-family: 'Bebas Neue';
 }
+
+.menu-btn {
+    width: 2.5em;
+    cursor: pointer;
+}
+
+.top-bg-container {
+    height: 100vh;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 80% auto;
+    z-index: -1;
+}
+
+.light-streaks {
+    background: #B2DD9E url('https://grupoweb.com.br/assets/DronePage/streaks.jpg');
+    background-blend-mode: screen;
+    background-size: cover;
+    height: 100vh;
+}
+
+.blue-col {
+    background-color: #7988BE;
+}
+
+.container {
+    margin: 0 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    background-color: black;
+    padding: .2em .4em;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.logo span {
+    color: #6889FF;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 66%;
+    background-color: #363B4E;
+    height: 100vh;
+    z-index: 2;
+    padding: 2em 0;
+    transform: translateX(100%);
+    transition: transform .3s;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: .4em 1.5em;
+    font-size: 1.5rem;;
+    text-align: right;
+}
