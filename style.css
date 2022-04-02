@@ -139,3 +139,16 @@ h1 {
 .drone {
     animation: hover 2s alternate-reverse infinite;
 }
+
+@keyframes hover {
+    from {
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0;
+    }
+}
+
