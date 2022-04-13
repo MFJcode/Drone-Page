@@ -365,3 +365,22 @@ button {
         font-size: 1rem;
         padding: 0 1em;
     }
+
+    /* Section 1 */
+    
+    
+    .quote {
+        width: 80%;
+        display: grid;
+        place-content: center;
+    }
+    
+    blockquote, cite {
+        width: 50%;
+        justify-self: center;
+    }
+    
+    blockquote {
+        font-size: 2rem;
+    }
+    
